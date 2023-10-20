@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chart>
+  <axes>
+    <axis xid="0">N</axis>
+    <axis xid="1">NE</axis>
+    <axis xid="2">E</axis>
+    <axis xid="3">SE</axis>
+    <axis xid="4">S</axis>
+    <axis xid="5">SW</axis>
+    <axis xid="6">W</axis>
+    <axis xid="7">NW</axis>
+  </axes>
+  <graphs>
+    <graph gid="1">
+      <value xid="0">8</value>
+      <value xid="1">9</value>
+      <value xid="2">4.5</value>
+      <value xid="3">3.5</value>
+      <value xid="4">9.2</value>
+      <value xid="5">8.4</value>
+      <value xid="6">11.1</value>
+      <value xid="7">8.4</value>
+    </graph>
+  </graphs>
+</chart>

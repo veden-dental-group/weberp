@@ -1,0 +1,11 @@
+php -f importctuv1.php 02 >>error.txt
+php -f importctuv1.php 03 >>error.txt
+php -f importctuv1.php 04 >>error.txt
+php -f importctuv1.php 05 >>error.txt
+php -f importctuv1.php 06 >>error.txt 
+php -f importctuv1.php 07 >>error.txt
+php -f importctuv1.php 08 >>error.txt
+php -f importctuv1.php 09 >>error.txt
+php -f importctuv1.php 10 >>error.txt
+php -f importctuv1.php 11 >>error.txt
+php -f importctuv1.php 12 >>error.txt

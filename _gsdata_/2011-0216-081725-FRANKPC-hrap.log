@@ -1,0 +1,26 @@
+----- 2011/2/16 上午 08:17:25：任務 'hrap'：分析已 Periodic Timer 所啟動，屬於計算機 'FRANKPC' (GoodSync v 8.5.7.7 on Windows 7) -----
+hrap: D:\hrap =forced-PropDels=> P:\hrap, SavePrevVers=30d, TmpDest, EstReq, CopyLocked, FileLinksDrill, CaseInSens, Reconnect=3
+已排除 licens*.rfo|cache.rfo|mru.rfo|mpp*.rfo|RoboForm Online Account.rfp|/System Volume Information|Thumbs.db|.DS_Store 
+左側: 讀取狀態文件 D:\hrap\_gsdata_\_file_state._gs
+左側：檔案： 446 (已排除 0)。資料夾： 59 (已排除 1)。 D: NTFS, 可用空間：160 GB，總計空間：416 GB
+右側: 讀取狀態文件 P:\hrap\_gsdata_\_file_state._gs
+右側：檔案： 444 (已排除 0)。資料夾： 59 (已排除 1)。 P: \\frankpc2\d NTFS, 可用空間：34.4 GB，總計空間：931 GB
+同步需要磁碟 file:///P: 上的空間應為 44.0 KB，目前為 34.4 GB
+變更：3， 沖突：0， 復制時間：0， 復制狀態：0， 錯誤： 0
+Left to Right: Copy File: 3 
+----- 2011/2/16 上午 08:17:26：分析已結束。 歷時 00:00:01， 速度： 506 個文件/秒 -----
+
+===== 2011/2/16 上午 08:17:26：任務 'hrap'：同步已被 Periodic Timer 所啟動，位於計算機 'FRANKPC' =====
+hrap: D:\hrap =forced-PropDels=> P:\hrap, SavePrevVers=30d, TmpDest, EstReq, CopyLocked, FileLinksDrill, CaseInSens, Reconnect=3
+Locking folder D:\hrap for write
+Locking folder P:\hrap for write
+新增複製 'D:\hrap\performancemonthly.php' -> 'P:\hrap\performancemonthly.php'
+新增複製 'D:\hrap\performancemonthly_calculate.php' -> 'P:\hrap\performancemonthly_calculate.php'
+覆寫複製 'D:\hrap\technicianstep_add.php' -> 'P:\hrap\technicianstep_add.php'
+儲存狀態檔案 D:\hrap\_gsdata_\_file_state._gs
+儲存狀態檔案 P:\hrap\_gsdata_\_file_state._gs
+Delete lock file D:\hrap\_gsdata_\lock.gsl
+Delete lock file P:\hrap\_gsdata_\lock.gsl
+項目同步未必： 3，錯誤： 0
+===== 2011/2/16 上午 08:17:26：同步完畢。時間：00:00:00，速度：  =====
+

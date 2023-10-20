@@ -1,0 +1,1 @@
+JavaScript version doesn't support time plot. Use AmSerialChart instead.

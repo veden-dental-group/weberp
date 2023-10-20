@@ -1,0 +1,3 @@
+# denied all
+user-agent: * 
+disallow: /

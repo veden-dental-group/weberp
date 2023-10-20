@@ -1,0 +1,200 @@
+<?php                   
+function getDir( $dirName ,$dir = 1 ) { 
+  $tmp = array();
+  if ( $handle = opendir( "$dirName" ) ) { 
+      while ( false !== ( $item=readdir($handle))){
+          if ( $item != "." && $item != ".." ) {
+              if (is_dir("$dirName/$item")) {  
+                  if ($dirName=='./') {
+                      $tmp[] = "$item" ;
+                      $tmp = array_merge($tmp,getDir( $item ));
+                  } else {
+                      $tmp[] = "$dirName/$item" ;
+                      $tmp = array_merge($tmp,getDir( "$dirName/$item" ));
+                  }          
+           
+              } else{           
+              }
+          }
+        }
+        closedir( $handle );  
+  }
+  return $tmp;
+}
+//echo '<pre>';
+//print_r(getDir('./'));
+
+//檢查有無新上傳的檔案 轉成email 通知相關人員
+session_start();        
+include("_data.php");
+
+require_once 'classes/PHPExcel.php'; 
+require_once 'classes/PHPExcel/IOFactory.php';  
+//$objPHPExcel = new PHPExcel();
+//$PHPReader = new PHPExcel_Reader_Excel2007(); 
+
+//$arga=func_num_args();
+//echo $arga[0];
+$arg1=$argv[1];
+echo $arg1;
+$dir1='d:/new3/'.$arg1;
+echo $dir2;
+
+//$dir1='d:/new3/053';
+
+$dirarray=scandir($dir1);
+//$edate=date('Y-m-d');
+$msg='開始轉檔';
+foreach ($dirarray as $dir2) {
+    if ($dir2 != "." && $dir2 != "..") {
+        $subdir=$dir1.'/'.$dir2;
+        if (is_dir($subdir)) {           //只處理第二層目錄下的檔案
+            $filearray = scandir($subdir);
+            foreach($filearray as $file) {
+              if ($file !='.' && $file !='..' && !(is_dir($subdir.'/'.$file))) {
+                  $filename=$subdir.'/'.$file;
+                  $customer=$dir2;          
+                  
+                  $PHPReader = new PHPExcel_Reader_Excel2007();                                                
+                  $PHPExcel = $PHPReader->load( $filename);     
+                  $sheet = $PHPExcel->getActiveSheet(0);      
+                  $allRow = $sheet->getHighestRow();
+                  $exceldate= floatval($sheet->getCell('A3')->getValue()); //A3 放日期  取出的日期為1900-01-1到那一天的天數
+                  $tdate = date('Y-m-d', ($exceldate-25569)*86400); //25569 為1900-01-01和1970-01-01的相差天數 
+                  
+                  $f6   = strtoupper($sheet->getCell('F6')->getValue()); //p6 放 TOTAL   
+                  $g6   = strtoupper($sheet->getCell('G6')->getValue()); //O6 放 TOTAL  
+                  
+                  $m6   = strtoupper($sheet->getCell('M6')->getValue()); //O6 放 TOTAL 
+                  $n6   = strtoupper($sheet->getCell('N6')->getValue()); //O6 放 TOTAL           
+                  $o6   = strtoupper($sheet->getCell('O6')->getValue()); //O6 放 TOTAL 
+                  $p6   = strtoupper($sheet->getCell('P6')->getValue()); //p6 放 TOTAL   
+                  $q6   = strtoupper($sheet->getCell('Q6')->getValue()); //O6 放 TOTAL      
+                  
+                  
+                  $m7   = strtoupper($sheet->getCell('M7')->getValue()); //O6 放 TOTAL 
+                  $n7   = strtoupper($sheet->getCell('N7')->getValue()); //O6 放 TOTAL           
+                  $o7   = strtoupper($sheet->getCell('O7')->getValue()); //O6 放 TOTAL 
+                  $p7   = strtoupper($sheet->getCell('P7')->getValue()); //p6 放 TOTAL   
+                  $q7   = strtoupper($sheet->getCell('Q7')->getValue()); //O6 放 TOTAL  
+                     
+                    
+                  if ($m6="TOTAL" or $n6="TOTAL" or $o6="TOTAL" or $p6="TOTAL" or $q6="TOTAL" )  {
+                      $start=7 ;                   
+                  } else if ($m6="TOTAL" or $n6="TOTAL" or $o6="TOTAL" or $p6="TOTAL" or $q6="TOTAL" )  { 
+                      $start=8;
+                  }
+                           
+                  for($y = $start ; $y<=$allRow; $y++){       //由第7行開始讀資料  
+                      if (($o6=='TOTAL') or ($o7=='TOTAL')) { //AA
+                          $rx     = $sheet->getCell('A'.$y)->getValue();     
+                          $pname  = $sheet->getCell('E'.$y)->getValue();     
+                          $pqty   = $sheet->getCell('F'.$y)->getValue();   
+                          $pprice = $sheet->getCell('G'.$y)->getValue();  
+                          $ptotal = $sheet->getCell('H'.$y)->getCalculatedValue(); 
+                          $mname  = $sheet->getCell('I'.$y)->getValue(); 
+                          $mqty   = $sheet->getCell('J'.$y)->getValue();  
+                          $mprice = $sheet->getCell('K'.$y)->getValue();  
+                          $mtotal = $sheet->getCell('L'.$y)->getCalculatedValue();  
+                          $memo   = 'o6,o7';
+                          $total  = $sheet->getCell('O'.$y)->getCalculatedValue();
+                      } else if (($p6=='TOTAL') or ($p7=='TOTAL')) {                        
+                          $rx     = $sheet->getCell('A'.$y)->getValue();     
+                          $pname  = $sheet->getCell('F'.$y)->getValue();     
+                          $pqty   = $sheet->getCell('G'.$y)->getValue();   
+                          $pprice = $sheet->getCell('H'.$y)->getValue();  
+                          $ptotal = $sheet->getCell('I'.$y)->getCalculatedValue();  
+                          $mname  = $sheet->getCell('J'.$y)->getValue();  
+                          $mqty   = $sheet->getCell('K'.$y)->getValue();  
+                          $mprice = $sheet->getCell('L'.$y)->getValue();  
+                          $mtotal = $sheet->getCell('M'.$y)->getCalculatedValue();
+                          $memo   = 'p6,p7';
+                          $total  = $sheet->getCell('P'.$y)->getCalculatedValue(); 
+                      } else if (($q6=='TOTAL') or ($q7=='TOTAL')) {     
+                          if ($f6=='DESCRIPTION') {                   
+                              $rx     = $sheet->getCell('A'.$y)->getValue();     
+                              $pname  = $sheet->getCell('F'.$y)->getValue();     
+                              $pqty   = $sheet->getCell('G'.$y)->getValue();   
+                              $pprice = $sheet->getCell('H'.$y)->getValue();  
+                              $ptotal = $sheet->getCell('I'.$y)->getCalculatedValue();  
+                              $mname  = $sheet->getCell('J'.$y)->getValue();  
+                              $mqty   = $sheet->getCell('K'.$y)->getValue();  
+                              $mprice = $sheet->getCell('L'.$y)->getValue();  
+                              $mtotal = $sheet->getCell('M'.$y)->getCalculatedValue();
+                              $memo   = 'f6'; 
+                              $total  = $sheet->getCell('Q'.$y)->getCalculatedValue();   
+                          } else {
+                              $rx     = $sheet->getCell('A'.$y)->getValue();     
+                              $pname  = $sheet->getCell('G'.$y)->getValue();     
+                              $pqty   = $sheet->getCell('H'.$y)->getValue();   
+                              $pprice = $sheet->getCell('I'.$y)->getValue();  
+                              $ptotal = $sheet->getCell('J'.$y)->getCalculatedValue();  
+                              $mname  = $sheet->getCell('K'.$y)->getValue();  
+                              $mqty   = $sheet->getCell('L'.$y)->getValue();  
+                              $mprice = $sheet->getCell('M'.$y)->getValue();  
+                              $mtotal = $sheet->getCell('N'.$y)->getCalculatedValue();
+                              $memo   = 'g6';
+                              $total  = $sheet->getCell('Q'.$y)->getCalculatedValue();   
+                          } 
+                      } else if (($n6=='TOTAL') or ($n7=='TOTAL')) {                        
+                          $rx     = $sheet->getCell('A'.$y)->getValue();     
+                          $pname  = $sheet->getCell('D'.$y)->getValue();     
+                          $pqty   = $sheet->getCell('E'.$y)->getValue();   
+                          $pprice = $sheet->getCell('F'.$y)->getValue();  
+                          $ptotal = $sheet->getCell('G'.$y)->getCalculatedValue();  
+                          $mname  = $sheet->getCell('H'.$y)->getValue();  
+                          $mqty   = $sheet->getCell('I'.$y)->getValue();  
+                          $mprice = $sheet->getCell('J'.$y)->getValue();  
+                          $mtotal = $sheet->getCell('K'.$y)->getCalculatedValue();
+                          $memo   = 'n6,n7'; 
+                          $total  = $sheet->getCell('N'.$y)->getCalculatedValue(); 
+                      } else if (($m6=='TOTAL') or ($m7=='TOTAL')) {                        
+                          $rx     = $sheet->getCell('A'.$y)->getValue();     
+                          $pname  = $sheet->getCell('C'.$y)->getValue();     
+                          $pqty   = $sheet->getCell('D'.$y)->getValue();   
+                          $pprice = $sheet->getCell('E'.$y)->getValue();  
+                          $ptotal = $sheet->getCell('F'.$y)->getCalculatedValue();  
+                          $mname  = $sheet->getCell('G'.$y)->getValue();  
+                          $mqty   = $sheet->getCell('H'.$y)->getValue();  
+                          $mprice = $sheet->getCell('I'.$y)->getValue();  
+                          $mtotal = $sheet->getCell('J'.$y)->getCalculatedValue();
+                          $memo   = 'm6,m7';  
+                          $total  = $sheet->getCell('M'.$y)->getCalculatedValue();     
+                      } else {
+                          $msg.="$filename 格式不合!!";
+                      }
+                      //$memo='';
+                      //寫入table中
+                      if ($rx!='') {
+                          $queryus = "insert into trade ( fname, tdate, cname, rx, pname, pqty, pprice, ptotal, ptotal1, mname, mqty, mprice, mtotal, mtotal1, total, memo ) values (
+                                      '" . safetext($filename)        . "',  
+                                      '" . $tdate                     . "',       
+                                      '" . $customer                  . "',   
+                                      '" . $rx                        . "',    
+                                      '" . $pname                     . "',    
+                                       " . floatval($pqty)            . ", 
+                                       " . floatval($pprice)          . ",    
+                                       " . floatval($ptotal)          . ",  
+                                      '" . $ptotal                    . "',   
+                                      '" . $mname                     . "',    
+                                       " . floatval($mqty)            . ",    
+                                       " . floatval($mprice)          . ",    
+                                       " . floatval($mtotal)          . ", 
+                                      '" . $mtotal                    . "',    
+                                       " . floatval($total)           . ",      
+                                      '" . safetext($memo)            . "')";     
+                          $resultus = mysql_query($queryus) or die ('17 Trade added error!!.' .mysql_error());  
+                      } 
+                  }     
+//                  $PHPReader->disconnectWorksheets();
+                  unset($PHPReader);
+              }
+            }
+        } 
+    }  
+} 
+$msg.='轉檔完畢'; 
+echo $msg;
+;msg($msg);
+
+?>

@@ -1,0 +1,181 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: Arial;
+	font-size: 11px;
+}
+td {
+	font-size: 11px;
+}
+.navbg1 {
+	background-image:url(i/nav1bg.gif);
+	height: 25px;
+	padding-left: 10px;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+.subnav {
+	height: 18px;
+	padding-left: 20px;
+	color: #666666;
+	font-size: 11px;
+	vertical-align: middle;
+	background-color: #eeeeee;
+	border-right: 1px solid #cccccc;
+}
+.topwhite {
+	height: 18px;
+	padding-left: 15px;
+	color: #ffffff;
+	font-size: 10px;
+	vertical-align: bottom;
+	padding-bottom: 25px;
+	line-height: 18px;
+}
+.main {
+	vertical-align: top;
+	padding: 16px;
+	color: #333333;
+	font-size: 12px;
+	padding-left: 20px;
+}
+h1 {
+	letter-spacing: -1px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 22px;
+	border-bottom: 1px solid #999999;
+	padding-left: 7px;
+	border-left: 20px solid #999999;
+}
+h2 {
+	letter-spacing: -1px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 18px;
+	border-bottom: 1px solid #999999;
+	padding-left: 7px;
+	background-color: #eeeeee
+}
+.table1 {
+	border: 1px solid #aaaaaa;
+}
+.table2 {
+	border: 1px solid #aaaaaa;
+}
+.table3 {
+	border: 1px solid #aaaaaa;
+}
+.table4 {
+	border: 1px solid #aaaaaa;
+}
+th {
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 11px;
+	text-align: left;	
+}
+.table1 th {
+	background-color:#77C9E9;
+}
+.table2 th {  
+	background-color:#F5DA23;
+}
+.table3 th {
+	background-color:#76ED5F;
+}
+.table4 th {
+	background-color:#DD63F7;
+}
+.table5 th {
+	background-color:#E46417;
+}
+th a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.whitelink {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.table1 td {
+	border-bottom: 1px solid #cccccc;
+}
+.table2 td {
+	border-bottom: 1px solid #cccccc;
+}
+.table3 td {
+	border-bottom: 1px solid #cccccc;
+}
+.table4 td {
+	border-bottom: 1px solid #cccccc;
+}
+.table5 td {
+	border-bottom: 1px solid #cccccc;
+}
+.witbold {
+	color: #333333;
+	font-weight: bold;
+}
+input, select, textarea {
+	font-family: Arial;
+	font-size: 11px;
+}
+.bigbutton {
+	background-color:#006699;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 16px;
+}
+.titelcell {
+	color: #FFFFFF;
+	background-color: #8CCDEC;
+	font-weight: bold;
+	}
+.titelcell2 {
+	color: #FFFFFF;
+	background-color: #666666;
+	font-weight: bold;
+	}	
+.tand {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+.tablenull {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+.tablenull td {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+
+.title1 {
+    width: 100;
+    width: 100px;
+    color: #000000;
+    background-color: #76ED5F;
+    font-weight: bold;
+}
+.titlecell3 {
+    font-size: 12px;
+    color: #FFFFFF;
+    background-color: #666666;
+    font-weight: bold;
+}
+    
+.inputw {
+    font-size: 12px;
+    color: #000000;
+    background-color: #FFFFFF;
+}

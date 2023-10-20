@@ -1,0 +1,2143 @@
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 12-5月 -2013 12:00:01
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 538
+    TNS-00538: Message 538 not found;  product=NETWORK; facility=TNS
+
+    nt secondary err code: 65
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 12-5月 -2013 12:00:01
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 538
+    TNS-00538: Message 538 not found;  product=NETWORK; facility=TNS
+
+    nt secondary err code: 65
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 12-5月 -2013 12:00:01
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 538
+    TNS-00538: Message 538 not found;  product=NETWORK; facility=TNS
+
+    nt secondary err code: 65
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 04-7月 -2013 14:00:00
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 04-7月 -2013 14:00:00
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 04-7月 -2013 14:00:00
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 04-7月 -2013 14:30:00
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 04-7月 -2013 14:30:00
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 04-7月 -2013 14:30:00
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 04-7月 -2013 14:30:02
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 04-7月 -2013 14:30:02
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 04-7月 -2013 14:30:02
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-7月 -2015 12:43:05
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-7月 -2015 12:43:20
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-7月 -2015 12:43:36
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-7月 -2015 12:43:52
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-7月 -2015 12:44:08
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 13-8月 -2015 13:00:58
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 13-8月 -2015 13:01:14
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 13-8月 -2015 13:01:30
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 28-8月 -2015 20:00:58
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 28-8月 -2015 20:01:14
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 28-8月 -2015 20:01:30
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 28-8月 -2015 20:31:08
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 28-8月 -2015 20:31:24
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 28-8月 -2015 20:31:40
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 28-8月 -2015 21:00:58
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 28-8月 -2015 21:01:14
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 28-8月 -2015 21:01:30
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 28-8月 -2015 22:00:58
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 28-8月 -2015 22:01:14
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 28-8月 -2015 22:01:30
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 28-8月 -2015 23:00:58
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 28-8月 -2015 23:01:14
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 28-8月 -2015 23:01:29
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 00:00:58
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 00:01:14
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 00:01:30
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 02:00:59
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 02:01:15
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 02:01:30
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 02:06:01
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 03:00:37
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 03:00:53
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 03:01:09
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 03:01:25
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 03:01:40
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 03:01:56
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 04:00:58
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 04:01:14
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 04:01:30
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 05:00:58
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 05:01:14
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 05:01:30
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 06:00:58
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 06:01:14
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 06:01:30
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 07:00:58
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 07:01:14
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 07:01:30
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 08:00:58
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 08:01:14
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 29-8月 -2015 08:01:30
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=erp)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 11-9月 -2015 16:00:58
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 26-9月 -2015 12:01:04
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:作業逾時
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: 作業逾時
+    nt secondary err code: 60
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 26-9月 -2015 12:01:25
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:作業逾時
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: 作業逾時
+    nt secondary err code: 60
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 26-9月 -2015 12:01:46
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:作業逾時
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: 作業逾時
+    nt secondary err code: 60
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 26-9月 -2015 12:25:31
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:作業逾時
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: 作業逾時
+    nt secondary err code: 60
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 26-9月 -2015 12:25:52
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:作業逾時
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: 作業逾時
+    nt secondary err code: 60
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 26-9月 -2015 12:26:13
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:作業逾時
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: 作業逾時
+    nt secondary err code: 60
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 26-9月 -2015 12:26:42
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:作業逾時
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: 作業逾時
+    nt secondary err code: 60
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 26-9月 -2015 12:27:03
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:作業逾時
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: 作業逾時
+    nt secondary err code: 60
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 26-9月 -2015 12:27:24
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:作業逾時
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: 作業逾時
+    nt secondary err code: 60
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 26-9月 -2015 12:27:57
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:作業逾時
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: 作業逾時
+    nt secondary err code: 60
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 26-9月 -2015 12:28:18
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:作業逾時
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: 作業逾時
+    nt secondary err code: 60
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 26-9月 -2015 12:28:39
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:作業逾時
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: 作業逾時
+    nt secondary err code: 60
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 07-12月-2017 20:31:34
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: TNS:作業逾時
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: 作業逾時
+    nt secondary err code: 60
+    nt OS err code: 0
+  Client address: (ADDRESS=(PROTOCOL=tcp)(HOST=192.168.1.206)(PORT=1521))
+
+
+***********************************************************************
+Fatal NI connect error 12516, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 05-1月 -2018 14:08:59
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12516, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 05-1月 -2018 14:09:06
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12516, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 05-1月 -2018 14:10:51
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12516, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 05-1月 -2018 14:10:54
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12516, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 05-1月 -2018 14:10:59
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12528, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 14-3月 -2019 03:00:29
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12528, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 14-3月 -2019 03:00:29
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12528, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 14-3月 -2019 03:00:29
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12528, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 14-3月 -2019 03:00:43
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12528, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 14-3月 -2019 03:00:43
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12528, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 14-3月 -2019 03:00:43
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12528, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 14-3月 -2019 03:00:43
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12528, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 14-3月 -2019 03:00:43
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12528, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 14-3月 -2019 03:00:43
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12528, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 14-3月 -2019 03:00:44
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12528, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 14-3月 -2019 03:00:44
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12528, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 14-3月 -2019 03:00:44
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12528, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 14-3月 -2019 03:00:49
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12528, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 14-3月 -2019 03:00:49
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12528, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 14-3月 -2019 03:00:49
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 08-4月 -2019 02:06:01
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 09-2月 -2020 02:05:46
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 09-2月 -2020 03:00:22
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 09-2月 -2020 03:00:22
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 09-2月 -2020 03:00:22
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 09-2月 -2020 03:00:31
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 09-2月 -2020 03:00:31
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 09-2月 -2020 03:00:31
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 09-2月 -2020 03:00:31
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 09-2月 -2020 03:00:31
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 09-2月 -2020 03:00:31
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 09-2月 -2020 03:00:32
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 09-2月 -2020 03:00:32
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 09-2月 -2020 03:00:32
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 09-2月 -2020 03:00:38
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 09-2月 -2020 03:00:38
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 09-2月 -2020 03:00:38
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:連線被拒
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.176)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=topprod)(CID=(PROGRAM=d:\php\php.exe)(HOST=ERPAP)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.3.0 - Production
+  Time: 05-4月 -2021 02:06:01
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: 協定轉接器錯誤
+    nt secondary err code: 55
+    nt OS err code: 0

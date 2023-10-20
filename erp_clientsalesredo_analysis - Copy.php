@@ -1,0 +1,414 @@
+<?php
+  session_start();
+  $pagetitle = "業務部 &raquo; Sales Redo Analysis";
+  include("_data.php");
+  include("_erp.php");
+ // auth("erp_clientsalesredo_analysis.php");  
+  
+  if (is_null($_GET['eyear'])) {
+    $eyear =  date('Y');
+  } else {
+    $eyear=$_GET['eyear'];
+  }     
+  
+  $byear=$eyear-1;
+  $bdate=$byear.'-01-01';
+  $edate=$eyear.'-12-31';  
+  
+  if (is_null($_GET['occ01'])) {
+    $occ01 =  '';
+  } else {
+    $occ01=$_GET['occ01'];
+  }  
+  
+  if (is_null($_GET['clienttype'])) {
+    $clienttype = '';
+  } else {
+    $clienttype = $_GET['clienttype'];
+  }   
+  
+  if ($clienttype=='Y') {
+      $ogaclientfilter=" and oga18='$occ01'";
+      $ofaclientfilter=" and tc_ofa03='$occ01'";  
+      $ogafield="oga18";
+      $occfield="occ07";
+      $ofafield="tc_ofa03";
+  } else {
+      $ogaclientfilter=" and oga04='$occ01'";  
+      $ofaclientfilter=" and tc_ofa04='$occ01'";  
+      $ogafield="oga04"; 
+      $occfield="occ09";  
+      $ofafield="tc_ofa04";
+  }                       
+           
+                                             
+    if (($_GET["submit"]=="Excel") or  ($_GET["submit"]=="PDF")) {   
+        //根據 occ02, occ42  取出名稱 幣別
+        $s2= "select occ02, occ42 from occ_file where $occfield='$occ01'";
+        $erp_sql2 = oci_parse($erp_conn2,$s2 );
+        oci_execute($erp_sql2);  
+        $row2 = oci_fetch_array($erp_sql2, OCI_ASSOC);  
+        $occ02=$row2['OCC02'];
+        $occ42=$row2['OCC42'];                                                
+        
+        
+        $filename="templates/SalesRedoAnalysis.xls";   
+        error_reporting(E_ALL);  
+        
+        require_once 'classes/PHPExcel.php'; 
+        require_once 'classes/PHPExcel/IOFactory.php';  
+        $objReader = PHPExcel_IOFactory::createReader('Excel5'); 
+        $objPHPExcel = $objReader->load("$filename");  
+        //$objPHPExcel = new PHPExcel();  
+        // Set properties
+                                                   
+        $objPHPExcel ->getProperties()->setCreator( 'Sales Redo Analysis')
+                     ->setLastModifiedBy('Sales Redo Analysis')
+                     ->setTitle('Sales Redo Analysis')
+                     ->setSubject('Sales Redo Analysis')
+                     ->setDescription('Invoice')
+                     ->setKeywords('Sales Redo Analysis')
+                     ->setCategory('Sales Redo Analysis'); 
+                                                                           
+        $s21="(select occ01, tyear, tmm, sum(total) total, sum(type1) type1, sum(type2) type2, sum(type3) type3 from " .
+             "(select $ogafield occ01, to_char(oga02, 'yyyy') tyear, to_char(oga02, 'mm') tmm, 1 total, decode(ta_oea004,'1', 1, 0) type1, decode(ta_oea004,'2', 1, 0) type2, decode(ta_oea004,'3', 1, 0) type3 " .  
+             "from oga_file, oea_file " .
+             "where $ogafield='$occ01' and ogaconf='Y' and oga02 between to_date('$bdate','yy/mm/dd') and to_date('$edate','yy/mm/dd') $ogaclientfilter " .
+             "and oga16=oea01 and ta_oea004 in ('1','2','3') ) " .
+             "group by occ01, tyear, tmm) "; 
+        $s22="(select tc_frk01 occ01, substr(tc_frk02,1,4) tyear, substr(tc_frk02,5,2) tmm, tc_frk03 total, 0 type1, tc_frk04 type2, 0 type3 " .
+             "from tc_frk_file " .
+             "where tc_frk01='$occ01' and substr(tc_frk01,1,4)>='$byear')";
+             
+        $s2="select occ01, tyear, tmm, total, type1, type2, type3 from " .
+            "$s21 union all $s22 order by tyear, tmm ";   
+        $erp_sql2 = oci_parse($erp_conn2,$s2 );
+        oci_execute($erp_sql2);               
+        while ($row2 = oci_fetch_array($erp_sql2, OCI_ASSOC)) {
+            $tyear=$row2['TYEAR'];
+            $tmm  =$row2['TMM'];
+            $total=$row2['TOTAL'];
+            $type1=$row2['TYPE1'];
+            $type2=$row2['TYPE2'];
+            $type3=$row2['TYPE3'];
+            
+            if ($tyear==$byear) {
+                switch ($tmm) {
+                  case '01':
+                      $m1t[1]=$total;
+                      $m11[1]=$type1;
+                      $m12[1]=$type2+$type3;
+                      break;
+                  case '02':
+                      $m1t[2]=$total;
+                      $m11[2]=$type1;
+                      $m12[2]=$type2+$type3;
+                      break;
+                  case '03':
+                      $m1t[3]=$total;
+                      $m11[3]=$type1;
+                      $m12[3]=$type2+$type3;
+                      break;
+                  case '04':
+                      $m1t[4]=$total;
+                      $m11[4]=$type1;
+                      $m12[4]=$type2+$type3;
+                      break;
+                  case '05':
+                      $m1t[5]=$total;
+                      $m11[5]=$type1;
+                      $m12[5]=$type2+$type3;
+                      break;
+                  case '06':
+                      $m1t[6]=$total;
+                      $m11[6]=$type1;
+                      $m12[6]=$type2+$type3;
+                      break;
+                  case '07':
+                      $m1t[7]=$total;
+                      $m11[7]=$type1;
+                      $m12[7]=$type2+$type3;
+                      break;
+                  case '08':
+                      $m1t[8]=$total;
+                      $m11[8]=$type1;
+                      $m12[8]=$type2+$type3;
+                      break;
+                  case '09':
+                      $m1t[9]=$total;
+                      $m11[9]=$type1;
+                      $m12[9]=$type2+$type3;
+                      break;
+                  case '10':
+                      $m1t[10]=$total;
+                      $m11[10]=$type1;
+                      $m12[10]=$type2+$type3;
+                      break;
+                  case '11':
+                      $m1t[11]=$total;
+                      $m11[11]=$type1;
+                      $m12[11]=$type2+$type3;
+                      break;
+                  case '12':
+                      $m1t[12]=$total;
+                      $m11[12]=$type1;
+                      $m12[12]=$type2+$type3;
+                      break;   
+                }             
+            } else if ($tyear==$eyear) {
+               switch ($tmm) {
+                  case '01':
+                      $m2t[1]=$total;
+                      $m21[1]=$type1;
+                      $m22[1]=$type2+$type3;
+                      break;
+                  case '02':
+                      $m2t[2]=$total;
+                      $m21[2]=$type1;
+                      $m22[2]=$type2+$type3;
+                      break;
+                  case '03':
+                      $m2t[3]=$total;
+                      $m21[3]=$type1;
+                      $m22[3]=$type2+$type3;
+                      break;
+                  case '04':
+                      $m2t[4]=$total;
+                      $m21[4]=$type1;
+                      $m22[4]=$type2+$type3;
+                      break;
+                  case '05':
+                      $m2t[5]=$total;
+                      $m21[5]=$type1;
+                      $m22[5]=$type2+$type3;
+                      break;
+                  case '06':
+                      $m2t[6]=$total;
+                      $m21[6]=$type1;
+                      $m22[6]=$type2+$type3;
+                      break;
+                  case '07':
+                      $m2t[7]=$total;
+                      $m21[7]=$type1;
+                      $m22[7]=$type2+$type3;
+                      break;
+                  case '08':
+                      $m2t[8]=$total;
+                      $m21[8]=$type1;
+                      $m22[8]=$type2+$type3;
+                      break;
+                  case '09':
+                      $m2t[9]=$total;
+                      $m21[9]=$type1;
+                      $m22[9]=$type2+$type3;
+                      break;
+                  case '10':
+                      $m2t[10]=$total;
+                      $m21[10]=$type1;
+                      $m22[10]=$type2+$type3;
+                      break;
+                  case '11':
+                      $m2t[11]=$total;
+                      $m21[11]=$type1;
+                      $m22[11]=$type2+$type3;
+                      break;
+                  case '12':
+                      $m2t[12]=$total;
+                      $m21[12]=$type1;
+                      $m22[12]=$type2+$type3;
+                      break;  
+                } 
+            } else {
+              
+            }   
+        }    
+                         
+        $s21="(select occ01, tyear, tmm, sum(total) total from " .
+             "(select $ofafield occ01, to_char(tc_ofa02, 'yyyy') tyear, to_char(tc_ofa02, 'mm') tmm, tc_ofb14 total " .  
+             "from tc_ofa_file, tc_ofb_file " .
+             "where $ofafield='$occ01' and tc_ofaconf='Y' and tc_ofa02 between to_date('$bdate','yy/mm/dd') and to_date('$edate','yy/mm/dd') $ofaclientfilter " .
+             "and tc_ofa01=tc_ofb01) " .
+             "group by occ01, tyear, tmm) "; 
+        $s22="(select tc_frk01 occ01, substr(tc_frk02,1,4) tyear, substr(tc_frk02,5,2) tmm, tc_frk05 total ".
+             "from tc_frk_file " .
+             "where tc_frk01='$occ01' and substr(tc_frk02,1,4)>='$byear')" ;
+        $s2="select occ01, tyear, tmm, total from " .     
+            "$s21 union all $s22 ";
+        $erp_sql2 = oci_parse($erp_conn2,$s2 );
+        oci_execute($erp_sql2);               
+        while ($row2 = oci_fetch_array($erp_sql2, OCI_ASSOC)) {
+            $tyear=$row2['TYEAR'];
+            $tmm  =$row2['TMM'];
+            $total=$row2['TOTAL'];  
+            
+            if ($tyear==$byear) {
+                switch ($tmm) {
+                  case '01': 
+                    $m31[1]=$total;
+                    break;
+                  case '02': 
+                    $m31[2]=$total;
+                    break;
+                  case '03': 
+                    $m31[3]=$total;
+                    break;
+                  case '04': 
+                    $m31[4]=$total;
+                    break;
+                  case '05': 
+                    $m31[5]=$total;
+                    break;
+                  case '06': 
+                    $m31[6]=$total;
+                    break;
+                  case '07': 
+                    $m31[7]=$total;
+                    break;
+                  case '08': 
+                    $m31[8]=$total;
+                    break;
+                  case '09': 
+                    $m31[9]=$total;
+                    break;
+                  case '10': 
+                    $m31[10]=$total;
+                    break;
+                  case '11': 
+                    $m31[11]=$total;
+                    break;
+                  case '12': 
+                    $m31[12]=$total;
+                    break; 
+                }
+            } else {
+                switch ($tmm) {
+                  case '01': 
+                    $m32[1]=$total;
+                    break;
+                  case '02': 
+                    $m32[2]=$total;
+                    break;
+                  case '03': 
+                    $m32[3]=$total;
+                    break;
+                  case '04': 
+                    $m32[4]=$total;
+                    break;
+                  case '05': 
+                    $m32[5]=$total;
+                    break;
+                  case '06': 
+                    $m32[6]=$total;
+                    break;
+                  case '07': 
+                    $m32[7]=$total;
+                    break;
+                  case '08': 
+                    $m32[8]=$total;
+                    break;
+                  case '09': 
+                    $m32[9]=$total;
+                    break;
+                  case '10': 
+                    $m32[10]=$total;
+                    break;
+                  case '11': 
+                    $m32[11]=$total;
+                    break;
+                  case '12': 
+                    $m32[12]=$total;
+                    break; 
+                }                     
+            }         
+        }                 
+                            
+        $objPHPExcel->getActiveSheet()->getPageSetup()->setOrientation(PHPExcel_Worksheet_PageSetup::ORIENTATION_LANDSCAPE);
+        $objPHPExcel->getActiveSheet()->getPageSetup()->setPaperSize(PHPExcel_Worksheet_PageSetup::PAPERSIZE_A4);             
+        $objPHPExcel->getActiveSheet()->getDefaultStyle()->getFont()->setName('Calibri');
+        $objPHPExcel->getActiveSheet()->getDefaultStyle()->getFont()->setSize(10);
+        $objPHPExcel->getActiveSheet()->getDefaultRowDimension()->setRowHeight(15);   
+       // $objPHPExcel->getActiveSheet()->getPageSetup()->setRowsToRepeatAtTopByStartAndEnd(1, 11); //每頁的1-5row都重複一樣              
+        
+        $objPHPExcel->setActiveSheetIndex(0);             
+        $osheet = $objPHPExcel->getActiveSheet();  
+                                                                                 
+        $erp_sql2 = oci_parse($erp_conn2,$s2 );
+        oci_execute($erp_sql2);  
+        $row2 = oci_fetch_array($erp_sql2, OCI_ASSOC);                
+                
+        $osheet ->setCellValue('B2', "$occ02 ANALYSIS FORM ($byear -- $eyear)");      
+        
+        $osheet ->setCellValue('B10',"Sales Figure($occ42)");                                                  
+        $osheet ->setCellValue('C4', $byear);                        
+        $osheet ->setCellValue('C5', $eyear); 
+        $osheet ->setCellValue('C6', $byear); 
+        $osheet ->setCellValue('C7', $eyear); 
+        $osheet ->setCellValue('C8', $byear); 
+        $osheet ->setCellValue('C9', $eyear); 
+        $osheet ->setCellValue('C10', $byear); 
+        $osheet ->setCellValue('C11', $eyear); 
+        
+        for ($i=1;$i<=12;$i++) {
+            $x=chr($i+67);
+            $osheet ->setCellValue($x.'4', $m1t[$i]); 
+            $osheet ->setCellValue($x.'5', $m2t[$i]); 
+            $osheet ->setCellValue($x.'6', $m12[$i]); 
+            $osheet ->setCellValue($x.'7', $m22[$i]);   
+            $osheet ->setCellValue($x.'10', $m31[$i]); 
+            $osheet ->setCellValue($x.'11', $m32[$i]);           
+        }        
+        
+        // Rename sheet
+        $osheet ->setTitle('SalesRedoAnalysis');                
+        // Set active sheet index to the first sheet, so Excel opens this as the first sheet
+        $objPHPExcel->setActiveSheetIndex(0);  
+                                                              
+        header('Content-Type: application/vnd.ms-excel');  
+        header('Content-Disposition: attachment;filename="'. 'SalesRedoAnalysis_' . $occ01 . '_' . $eyear . '.xls"');    
+        header('Cache-Control: max-age=0'); 
+        $objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel5');               
+        $objWriter->save('php://output'); 
+        exit;    
+  }  
+    
+    //for xajax
+  require ('xajax/xajax_core/xajax.inc.php');
+  $xajax = new xajax();
+  $xajax->configure('javascript URI', 'xajax/');
+    
+  $xajax->processRequest();
+
+  echo '<?xml version="1.0" encoding="UTF-8"?>'; 
+  $IsAjax = True;  
+  include("_header.php");
+?>
+<link href="css.css" rel="stylesheet" type="text/css">
+<p>客戶 Sales Redo Analysis </p>     
+<form action="<?=$_SERVER['PHP_SELF'];?>" method="get" name="form1">
+  <div align="left">
+    <table width="100%"  border="0" cellpadding="4" cellspacing="1" style="border: 1px solid #cccccc">
+      <tr><td bgcolor="#eeeeee">
+         截止年份:   
+        <input name="eyear" type="text" id="eyear" size="12" maxlength="12" value=<?=$eyear;?> onfocus="WdatePicker({dateFmt:'yyyy'})"> &nbsp;&nbsp;
+        客戶代碼: 
+        <select name="occ01" id="occ01">  
+            <?
+              $s1= "select occ01,occ02 from occ_file order by occ01 ";
+              $erp_sql1 = oci_parse($erp_conn1,$s1 );
+              oci_execute($erp_sql1);  
+              while ($row1 = oci_fetch_array($erp_sql1, OCI_ASSOC)) {
+                  echo "<option value=" . $row1["OCC01"];  
+                  if ($_GET["occ01"] == $row1["OCC01"]) echo " selected";                  
+                  echo ">" . $row1['OCC01'] ."--" .$row1["OCC02"] . "</option>"; 
+              }   
+            ?>
+        </select>                                                                    
+        &nbsp;&nbsp;   
+        是否收款客戶:
+        <input type="checkbox" id="clienttype" name="clienttype" value="Y" <? if($clienttype=='Y') echo " checked";?> >
+        &nbsp;&nbsp;                                                                                    
+        <input type="submit" name="submit" id="submit" value="Excel">  &nbsp;&nbsp;   &nbsp;&nbsp;      
+      </td></tr>
+    </table>
+  </div>
+</form>

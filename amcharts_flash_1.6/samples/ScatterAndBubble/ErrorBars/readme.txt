@@ -1,0 +1,1 @@
+Currently JS version doesn't support error bars.

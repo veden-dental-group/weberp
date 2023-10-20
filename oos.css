@@ -1,0 +1,376 @@
+.bigbutton {
+	background-color:#006699;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 16px;
+}
+.body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: Arial;
+	font-size: 11px;
+}
+.td {
+	font-size: 11px;
+}
+.navbg1 {
+	background-image:url(i/nav1bg.gif);
+	height: 25px;
+	padding-left: 10px;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+.subnav {
+	height: 18px;
+	padding-left: 20px;
+	color: #666666;
+	font-size: 11px;
+	vertical-align: middle;
+	background-color: #eeeeee;
+	border-right: 1px solid #cccccc;
+}
+.topwhite {
+	height: 18px;
+	padding-left: 15px;
+	color: #ffffff;
+	font-size: 10px;
+	vertical-align: bottom;
+	padding-bottom: 25px;
+	line-height: 18px;
+}
+.main {
+	vertical-align: top;
+	padding: 16px;
+	color: #333333;
+	font-size: 12px;
+	padding-left: 20px;
+}
+h1 {
+	letter-spacing: -1px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 22px;
+	border-bottom: 1px solid #999999;
+	padding-left: 7px;
+	border-left: 20px solid #999999;
+}
+h2 {
+	letter-spacing: -1px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 18px;
+	border-bottom: 1px solid #999999;
+	padding-left: 7px;
+	background-color: #eeeeee
+}
+.tabel1 {
+	border: 1px solid #aaaaaa;
+}
+.tabel2 {
+	border: 1px solid #aaaaaa;
+}
+.tabel3 {
+	border: 1px solid #aaaaaa;
+}
+.tabel4 {
+	border: 1px solid #aaaaaa;
+}
+th {
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 11px;
+	text-align: left;
+}
+
+thr {
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 11px;
+    text-align: right;
+}
+.tabel1 th {
+	background-color:#77C9E9;
+  color: #000000;    
+}
+.tabel2 th {
+	background-color:#F5DA23;
+  color: #000000;   
+}
+.tabel3 th {
+	background-color:#76ED5F;
+  color: #000000;    
+}
+.tabel4 th {
+	background-color:#DD63F7;
+  color: #000000;    
+}
+.tabel5 th {
+	background-color:#E46417;
+  color: #000000;    
+}
+th a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+.wittelink {
+	color: #000000;
+	text-decoration: underline;
+}
+.whitelink {
+    color: #000000;
+    text-decoration: underline;
+}
+.tabel1 td {
+	border-bottom: 1px solid #cccccc;
+}
+.tabel2 td {
+	border-bottom: 1px solid #cccccc;
+}
+.tabel3 td {
+	border-bottom: 1px solid #cccccc;
+}
+.tabel4 td {
+	border-bottom: 1px solid #cccccc;
+}
+.tabel5 td {
+	border-bottom: 1px solid #cccccc;
+}
+.witbold {
+	color: #333333;
+	font-weight: bold;
+}
+input, select, textarea {
+	font-family: Arial;
+	font-size: 11px;
+}
+.bigbutton {
+	background-color:#006699;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 16px;
+}
+.titelcel {
+	color: #FFFFFF;
+	background-color: #8CCDEC;
+	font-weight: bold;
+	}
+.titelcel2 {
+	color: #FFFFFF;
+	background-color: #666666;
+	font-weight: bold;
+	}
+
+.tand {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+.tablenull {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+.tablenull td {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+.titleb {
+    width: 100;
+    width: 100px;
+    color: #000000;
+    background-color: #76ED5F;
+    font-weight: bold;
+}
+.titlew {
+    width: 30;
+    width: 30px;
+    color: #000000;
+    background-color: #FFFFFF;
+    font-weight: bold;
+}
+.titleg {
+    width: 100;
+    width: 100px;
+    color: #FFFFFF;
+    background-color: #666666;
+    font-weight: bold;
+}
+
+.titlered {
+    width: 100;
+    width: 100px;
+    color: #000000;
+    background-color: red;
+    font-weight: bold;
+}
+
+
+.inputw {
+    white-space         :  nowrap
+    font-size           :  10px;
+    font-size           :  10;
+    color               :  #000000;
+    background-color    :  #FFFFFF;
+}
+
+.inputred {
+    white-space         :  nowrap
+    font-size           :  10px;
+    font-size           :  10;
+    color               :  #000000;
+    background-color    :  red;
+}
+
+.lineb {
+    width  : 1;
+    width  : 1px;
+    height : 0;
+    height : 0px;
+    background-color: #999999;
+}
+
+
+.inputw {
+    font-size: 12px;
+    color: #000000;
+    background-color: #FFFFFF;
+    }
+.inputw2 {
+    font-size: 12px;
+    color: #000000;
+    background-color: #FFFFFF;
+    }
+.inputw3 {
+    font-size: 12px;
+    color: #000000;
+    background-color: #FFFFFF;
+    }
+.inputw4 {
+    font-size: 12px;
+    color: #000000;
+    background-color: #FFFFFF;
+    }
+.line1 {
+    width  : 1px;
+    height : 0px;
+    background-color: #999999;
+    }
+.style1 {
+  color: #999999;
+  font-style: italic;
+}
+
+.inputcell {
+    font-size: 12px; 
+    font-size: 12; 
+    color: #000000;   
+    background-color: #FFFFFF;
+}  
+
+.line1 { 
+    width  : 1;
+    width  : 1px;
+    height : 0;
+    height : 0px;
+    background-color: #999999;
+}     
+
+
+.title {
+    width: 150;
+    width: 150px;
+    color: #000000;
+    background-color: #66FF66;    
+    font-weight: bold;
+}
+
+.input {
+    white-space         :  nowrap
+    font-size           :  10px;
+    font-size           :  10;
+    color               :  #000000;
+    background-color    :  #FFFFFF;
+}
+
+.style1 {font-weight: bold}
+.style2 {
+    color: #000000;
+    font-weight: bold;
+}
+.style3 {
+    color: #999999;
+    font-style: italic;
+}
+.style4 {font-style: italic}
+
+.defv { background-color: #58ACFA}
+
+
+.titlecell {
+    width: 100;
+    width: 100px;
+    color: #000000;
+    background-color: #76ED5F;
+    font-weight: bold;
+}
+
+.titlecell2 {
+    width: 100;
+    width: 100px;
+    color: #FFFFFF;
+    background-color: #666666;
+    font-weight: bold;
+}
+
+.titlecell3 {
+    font-size: 12px;
+    color: #FFFFFF;
+    background-color: #666666;
+    font-weight: bold;
+    }
+.titlecell21 {
+    font-size: 12px;
+    color: #000000;
+    background-color: #76ED5F;
+    font-weight: bold;
+    width  : 100px;
+    height : 20px;
+    }
+.titlecell22 {
+    font-size: 12px;
+    color: #000000;
+    background-color: #76ED5F;
+    font-weight: bold;
+    width  : 100px;
+    height : 20px;
+    }
+.titlecell23 {
+    font-size: 12px;
+    color: #000000;
+    background-color: #76ED5F;
+    font-weight: bold;
+    width  : 100px;
+    height : 20px;
+    }
+.titlecell2223 {
+    font-size: 12px;
+    color: #000000;
+    background-color: #76ED5F;
+    font-weight: bold;
+    width  : 100px;
+    height : 20px;
+    }
+
+.teeth {
+    background-color:#FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}

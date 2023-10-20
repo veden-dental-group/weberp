@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <background>
+    <alpha>100</alpha>
+    <border_alpha>20</border_alpha>
+  </background>
+  <plot_area>
+    <margins>
+      <left>65</left>
+      <right>50</right>
+      <top>62</top>
+      <bottom>60</bottom>
+    </margins>
+  </plot_area>
+  <grid>
+    <category>
+      <dashed>1</dashed>
+      <dash_length>4</dash_length>
+    </category>
+    <value>
+      <dashed>1</dashed>
+      <dash_length>4</dash_length>
+    </value>
+  </grid>
+  <axes>
+    <category>
+      <width>1</width>
+      <color>E7E7E7</color>
+    </category>
+    <value>
+      <width>1</width>
+      <color>E7E7E7</color>
+    </value>
+  </axes>
+  <values>
+    <value>
+      <min>0</min>
+      <duration>ss</duration>
+    </value>
+  </values>
+  <legend>
+    <enabled>0</enabled>
+  </legend>
+  <depth>20</depth>
+  <angle>35</angle>
+  <column>
+    <width>85</width>
+    <balloon_text>{title}: {value}</balloon_text>
+    <grow_time>3</grow_time>
+  </column>
+  <graphs>
+    <graph gid="0">
+      <title>Duration of the visit</title>
+      <color>FFCC00</color>
+      <alpha>69</alpha>
+    </graph>
+  </graphs>
+  <labels>
+    <label lid="0">
+      <text>Duration of the visit</text>
+      <y>22</y>
+      <text_color>000000</text_color>
+      <text_size>13</text_size>
+      <align>center</align>
+    </label>
+  </labels>
+</settings>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <grid>
+    <approx_count>5</approx_count>
+  </grid>	
+  <axes>
+    <labels>
+      <distance>15</distance>
+    </labels>
+  </axes>
+  <values>
+    <unit>$</unit>
+    <unit_position>left</unit_position>
+  </values>
+  <balloon>
+    <show>{title}: ${value} mln.</show>
+  </balloon>
+  <legend>
+    <align>center</align>
+  </legend>
+  <type>stacked</type>
+  <radar>
+    <grow_time>2</grow_time>
+    <sequenced_grow>1</sequenced_grow>
+  </radar>
+  <graphs>
+    <graph gid="1">
+      <title>Other expences</title>
+      <color>999999</color>
+      <bullet>round</bullet>
+    </graph>
+    <graph gid="2">
+      <title>Salaries</title>
+      <color>000000</color>
+      <bullet>round</bullet>
+    </graph>
+  </graphs>
+</settings>

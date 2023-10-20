@@ -1,0 +1,59 @@
+select ogb31, ogb32, ogaud02, to_char(oea02, 'yyyy-mm-dd') oga02, 
+occ01, occ02, sfb01, sfb82, ta_oea002, ta_oea003, ta_oea046, ta_oea047, ta_oea048, ima01, ima02, ima1002, imc04, oebud03 
+from oga_file, occ_file, ogb_file, 
+( select distinct tc_fro002 from tc_fro_file where tc_fro001='E143001' or tc_fro001='MISC' ), 
+sfb_file, oea_file, oeb_file, 
+(select ima01, ima02, ima1002, imc04 from ima_file left join imc_file on ima01=imc01 and imc02='FR' and imc03='1' ) 
+where 
+oea02 between to_date('2013-10-07','yy/mm/dd') and to_date('2013-10-10','yy/mm/dd') 
+and oga04='E143001' and oga04=occ01 and oga01=ogb01 and ogb04=tc_fro002 
+and ogb31=sfb22 and ogb32=sfb221 and ogb31=oea01 and ogb31=oeb01 and ogb32=oeb03 and ogb04=ima01 
+order by oea02, ogaud02
+
+// new sql
+select oea01 ogb31, oeb03 ogb32, oeaud02 ogaud02, to_char(oea02, 'yyyy-mm-dd') oga02, 
+occ01, occ02, sfb01, sfb82, ta_oea002, ta_oea003, ta_oea046, ta_oea047, ta_oea048, 
+ima01, ima02, ima1002, imc04, oebud03 
+
+from oea_file, oeb_file, sfb_file, occ_file,
+( select distinct tc_fro002 from tc_fro_file where tc_fro001='E143001' or tc_fro001='MISC' ), 
+( select ima01, ima02, ima1002, imc04 from ima_file left join imc_file on ima01=imc01 and imc02='FR' and imc03='1' ) 
+
+where 
+oea04='E143001'
+and oea02 between to_date('2013-10-06','yy/mm/dd') and to_date('2013-10-06','yy/mm/dd') 
+and oea04=occ01 
+and oea01=oeb01 
+and oeb04=tc_fro002 
+and oea01=sfb22 
+and oeb03=sfb221 
+and oeb04=ima01 
+order by oea02, oeaud02
+
+/*
+and ogb31=oea01 
+and ogb31=oeb01 
+and ogb32=oeb03 
+*/
+
+select t.guid tguid, t.occ01 tocc01, t.occ02 tocc02, t.oga02 toga02, t.workticketno tworkticketno, t.orderno torderno, t.rxno trxno, t.dentist tdentist, t.patient tpatient, t.pcode tpcode, t.pename tpename, t.tooth ttooth, t.shade tshade, tb.guid tbguid, tb.pcode tbpcode, tb.pename tbpename, tb.manufacturer tbmanufacturer, tb.ceno tbceno, tb.lotno tblotno 
+from traceability t, traceabilitybody tb 
+where t.flag1='N' and t.guid=tb.traceabilityguid and t.occ01='E143001' and t.daterange='2013-10-10--2013-10-10' order by oga02,rxno 
+
+
+
+select *
+from oea_file, oeb_file, sfb_file, occ_file
+where oea01=sfb22
+and oea04='E143001'
+and oea02 between to_date('2013-10-06','yy/mm/dd') and to_date('2013-10-06','yy/mm/dd')
+
+
+
+select * 
+from oea_file left join sfb_file
+on oea01=sfb22
+where 
+oea02 between to_date('2013-10-07','yy/mm/dd') and to_date('2013-10-10','yy/mm/dd') 
+
+B531-1310070467

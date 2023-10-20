@@ -1,0 +1,7 @@
+﻿English text: Hello world
+Lithuanian text: Lietuviškos raidės ąčęėįšųūžĄČĘĖĮŠŲŪŽ
+Russian text: русский техт.
+French text: le code à côté de
+Symbol: ■
+Chinese: 日月金水木火土
+CN:鲜暂停核活动换取美国24万吨粮食援助
